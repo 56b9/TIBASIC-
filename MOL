@@ -1,4 +1,3 @@
-:ClrHome
 :Input "GM(1) OR MG(2)?",I
 :IF I=1
 :Then
