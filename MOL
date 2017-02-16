@@ -1,0 +1,18 @@
+:ClrHome
+:Input "GM(1) OR MG(2)?",I
+:IF I=1
+:Then
+:Input "A-MASS:",M
+:Input "GRAMS:", G
+:Disp "MOLS:
+:Disp (G/M)
+:Disp "PARTICLES:"
+:Disp (G/M)*6.02214*10^23
+:End
+:If I=2
+:Then
+:Input "MOLES:", M
+:Inout "MOLARMASS", N
+:Disp "GRAMS:"
+:Disp (N*M)
+End
